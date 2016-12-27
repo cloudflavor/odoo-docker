@@ -3,8 +3,7 @@ MAINTAINER Victor Palade github.com/pi-victor
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
 RUN set -x; \
-        apt-get update \
-        && apt-get install -y --no-install-recommends \
+        apt-get install -y --no-install-recommends \
             ca-certificates \
             curl \
             node-less \
