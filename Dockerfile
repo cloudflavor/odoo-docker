@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Odoo S.A. <info@odoo.com>
+MAINTAINER Victor Palade github.com/pi-victor
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
 RUN set -x; \
